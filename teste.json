@@ -1,0 +1,161 @@
+{
+    "id": "e8fc9ca0-e459-11ed-b960-87e6d348e476",
+    "version": 2,
+    "type": "EXPENSE",
+    "reference": {
+        "id": null,
+        "revision": null,
+        "origin": "FINANCIAL_ENTRY"
+    },
+    "competenceDate": "2023-04-10",
+    "description": "PIX EMITIDO OUTRA IF Pagamento Pix ***.095.089-** DOC.: Pix",
+    "value": 7250.75,
+    "negotiatorId": "2f147163-152a-4478-bf86-2d2559c6d52d",
+    "observation": null,
+    "recurrenceId": null,
+    "recurrenceIndex": null,
+    "scheduled": false,
+    "externalReference": null,
+    "paymentCondition": {
+        "installmentsCount": 1,
+        "installments": [
+            {
+                "event": {
+                    "id": "e8fc9ca0-e459-11ed-b960-87e6d348e476",
+                    "reference": {
+                        "id": null,
+                        "revision": null,
+                        "origin": "FINANCIAL_ENTRY"
+                    },
+                    "competenceDate": "2023-04-10",
+                    "type": "EXPENSE",
+                    "scheduled": false
+                },
+                "id": "e8fe3d8a-e459-11ed-b964-0302ec2d1a2b",
+                "version": 3,
+                "reference": null,
+                "index": 1,
+                "conciliated": true,
+                "status": "ACQUITTED",
+                "paid": 7250.75,
+                "loss": null,
+                "unpaid": 0.0,
+                "dueDate": "2023-04-10",
+                "expectedPaymentDate": "2023-04-10",
+                "description": "PIX EMITIDO OUTRA IF Pagamento Pix ***.095.089-** DOC.: Pix",
+                "note": null,
+                "financialAccount": {
+                    "id": "2a32cd78-7cf6-4969-b4ef-fef01a2c99d9",
+                    "version": 0,
+                    "bankInstitution": "SICOOB",
+                    "bankInstitutionCode": 999,
+                    "name": "Sicoob",
+                    "active": true,
+                    "type": "CHECKINGACCOUNT",
+                    "legacyId": 32264698,
+                    "parentId": null,
+                    "closingDate": null,
+                    "dueDate": null,
+                    "defaultAccount": true,
+                    "hasBankSlipConfiguration": false,
+                    "contaAzulDigital": false,
+                    "cashierAccount": false,
+                    "externalReference": null,
+                    "wizardStatus": "CONFIGURED"
+                },
+                "valueComposition": {
+                    "fine": 0.0,
+                    "interest": 0.0,
+                    "grossValue": 7250.75,
+                    "discount": 0.0,
+                    "fee": 0.0,
+                    "netValue": 7250.75
+                },
+                "paymentMethod": null,
+                "nsu": null,
+                "acquittanceScheduled": false,
+                "acquittances": [
+                    {
+                        "id": "ebfafe42-e459-11ed-9880-7fa6935d2d9a",
+                        "version": 1,
+                        "acquittanceDate": "2023-04-10",
+                        "valueComposition": {
+                            "fine": 0.0,
+                            "interest": 0.0,
+                            "grossValue": 7250.75,
+                            "discount": 0.0,
+                            "fee": 0.0,
+                            "netValue": 7250.75
+                        },
+                        "financialAccount": {
+                            "id": "2a32cd78-7cf6-4969-b4ef-fef01a2c99d9",
+                            "version": 0,
+                            "bankInstitution": "SICOOB",
+                            "bankInstitutionCode": 999,
+                            "name": "Sicoob",
+                            "active": true,
+                            "type": "CHECKINGACCOUNT",
+                            "legacyId": 32264698,
+                            "parentId": null,
+                            "closingDate": null,
+                            "dueDate": null,
+                            "defaultAccount": true,
+                            "hasBankSlipConfiguration": false,
+                            "contaAzulDigital": false,
+                            "cashierAccount": false,
+                            "externalReference": null,
+                            "wizardStatus": "CONFIGURED"
+                        },
+                        "reconciliationId": "1b24b0ae-d296-4763-aad0-6a74cc9738d0",
+                        "installmentId": "e8fe3d8a-e459-11ed-b964-0302ec2d1a2b",
+                        "chargeRequestId": null,
+                        "observation": null,
+                        "paymentMethod": "DIGITAL_WALLET",
+                        "origin": "FINANCIAL_ENTRY",
+                        "digitalReceiptId": null,
+                        "nsu": null,
+                        "updatedAt": "2023-04-28T23:02:56",
+                        "attachments": []
+                    }
+                ],
+                "attachments": [],
+                "chargeRequests": [],
+                "lastPaymentRequestId": null
+            }
+        ],
+        "lumpSum": false
+    },
+    "categoriesRatio": [
+        {
+            "categoryId": "5de8c0a7-dc15-4a9b-82fc-f7bef2834911",
+            "value": 250.75,
+            "category": "Retiradas",
+            "costCentersRatio": [
+                {
+                    "costCenterId": "7373a024-2b7b-11ed-9949-4b7baf517b76",
+                    "value": 250.75,
+                    "costCenter": "S\u00eanior Sistemas"
+                }
+            ]
+        },
+        {
+            "categoryId": "afcf4f5b-7b4d-4ced-ac8c-c2623a33163c",
+            "value": 7000.0,
+            "category": "Compra de Servi\u00e7os de Terceiros PF",
+            "costCentersRatio": [
+                {
+                    "costCenterId": "7373a024-2b7b-11ed-9949-4b7baf517b76",
+                    "value": 1000.0,
+                    "costCenter": "S\u00eanior Sistemas"
+                },
+                {
+                    "costCenterId": "73739ca0-2b7b-11ed-9947-03250e5d0c81",
+                    "value": 6000.0,
+                    "costCenter": "Administrativo"
+                }
+            ]
+        }
+    ],
+    "attachments": [],
+    "installments": []
+}
